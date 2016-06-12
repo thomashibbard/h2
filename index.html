@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Visualizations</title>
+		<!-- bower:css -->
+		<link rel="stylesheet" href="./bower_components/skeleton/css/skeleton.css" />
+		<!-- endbower -->
+		<link rel="stylesheet" href="./app/css/main.css" />
+		<!-- bower:js -->
+		<script src="./bower_components/angular/angular.js"></script>
+		<script src="./bower_components/angular-route/angular-route.js"></script>
+		<script src="./bower_components/jquery/dist/jquery.js"></script>
+		<!-- endbower -->
+	</head>
+	<body ng-app='h2App'>
+		<div ng-view></div>
+		<!-- inject:js -->
+		<script src="./app/angular/app.js"></script>
+		<script src="./app/angular/selectView/selectViewController.js"></script>
+		<script src="./app/angular/viewA/viewAController.js"></script>
+		<script src="./app/angular/viewB/viewBController.js"></script>
+
+		<!-- endinject -->
+	</body>
+</html>

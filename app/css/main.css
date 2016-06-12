@@ -1,0 +1,13 @@
+.view-container {
+  margin-top: 150px;
+  max-width: 1400px;
+  margin: 0 auto; }
+  .view-container .view-header {
+    font-weight: bold; }
+
+.select-view-container {
+  text-align: center; }
+  .select-view-container .select-view-header {
+    font-weight: bold; }
+  .select-view-container .select-view-button {
+    width: 100%; }

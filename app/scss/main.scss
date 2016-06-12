@@ -1,0 +1,10 @@
+.view-container{
+	margin-top: 150px;
+	max-width: 1400px;
+	margin: 0 auto;
+	.view-header{
+		font-weight: bold;
+	}
+}
+
+@import 'select-view';
