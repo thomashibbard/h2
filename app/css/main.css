@@ -1,13 +1,19 @@
 .view-container {
-  margin-top: 150px;
   max-width: 1400px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center; }
+  .view-container .row {
+    padding-bottom: 10px; }
   .view-container .view-header {
     font-weight: bold; }
 
 .select-view-container {
   text-align: center; }
-  .select-view-container .select-view-header {
-    font-weight: bold; }
   .select-view-container .select-view-button {
     width: 100%; }
+
+.view-a-container .bar-chart-vert {
+  width: 15px;
+  border: 1px solid red;
+  color: #fff; }

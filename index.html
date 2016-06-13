@@ -12,12 +12,16 @@
 		<script src="./bower_components/angular-route/angular-route.js"></script>
 		<script src="./bower_components/jquery/dist/jquery.js"></script>
 		<!-- endbower -->
+		<!-- loaded statically as bower search was being uncooperative -->
+		<script src="//d3js.org/d3.v3.min.js"></script>
 	</head>
 	<body ng-app='h2App'>
 		<div ng-view></div>
 		<!-- inject:js -->
 		<script src="./app/angular/app.js"></script>
 		<script src="./app/angular/selectView/selectViewController.js"></script>
+		<script src="./app/angular/services/FoodInspectionDataService.js"></script>
+		<script src="./app/angular/services/d3Service.js"></script>
 		<script src="./app/angular/viewA/viewAController.js"></script>
 		<script src="./app/angular/viewB/viewBController.js"></script>
 
